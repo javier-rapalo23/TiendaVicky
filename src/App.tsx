@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.tsx";
 import HomePage from "./screens/HomeScreen";
 import InventoryPage from "./screens/InventarioScreen";
-import BillingPage from "./screens/FacturacionScreen.tsx";
+import FacturacionScreen from "./screens/FacturacionScreen.tsx";
 
 const App: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<InventoryPage />} />
-        <Route path="/billing" element={<BillingPage />} />
+        <Route path="/FacturacionScreen" element={<FacturacionScreen />} />
       </Routes>
     </Router>
   );

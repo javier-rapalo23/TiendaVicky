@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #32c0c1;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Puedes usar cualquier fuente */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
